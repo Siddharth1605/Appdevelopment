@@ -1,0 +1,47 @@
+
+  /* Login.css */
+.login-container {
+    background-color: #1d2634; /* White background color */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-card {
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .card-title {
+    color: #1d2634;
+    font-size: 24px; /* Increased font size for the title */
+    margin-bottom: 20px; /* Increased margin for better spacing */
+  }
+  
+  .form-control {
+    border: none;
+    border-radius: 0;
+    margin-bottom: 15px;
+    padding: 12px; /* Improved padding for form inputs */
+  }
+  
+  .btn-primary {
+    background-color: #576CBC;
+    border: none;
+    padding: 10px 20px; /* Improved padding for the sign-in button */
+    font-size: 16px; /* Increased font size for the button text */
+    transition: background-color 0.3s; /* Smooth hover effect */
+  }
+  
+  .btn-primary:hover {
+    background-color: #4760A5;
+  }
+  
+  .invalid-feedback {
+    color: #1d2634;
+    font-size: 14px;
+    margin-top: 5px; /* Added margin for better separation from inputs */
+  }
+  

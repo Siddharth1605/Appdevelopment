@@ -1,0 +1,21 @@
+.nav-bar
+{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+    background-color: rgb(180, 50, 6);
+    height: 100px;
+}
+.nav-bar-title
+{
+    color: rgb(219, 239, 241);
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: 40px;
+}
+.admin-btn
+{
+    height:100px;
+    padding-left: 80px;
+}

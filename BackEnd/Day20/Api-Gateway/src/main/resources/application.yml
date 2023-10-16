@@ -1,0 +1,26 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: authenticate-server
+          uri: lb://authenticate-server
+          predicates:
+            - Path=/auth/**
+                        
+        - id: doctor-server
+          uri: lb://doctor-server
+          predicates:
+            - Path=/doctors/**
+        
+        - id: patient-server
+          uri: lb://patient-server
+          predicates:
+            - Path=/patients/**
+        
+        -  id: appointment-server
+           uri: lb://appointment-server
+           predicates:
+            - Path=/appointment/** 
+        
+            
+         
